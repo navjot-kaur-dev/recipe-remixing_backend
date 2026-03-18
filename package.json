@@ -1,0 +1,28 @@
+{
+  "name": "recipe-remixing-backend",
+  "version": "1.0.0",
+  "description": "Backend API for RecipeRemixing platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "dev:debug": "nodemon --inspect server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
